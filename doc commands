@@ -1,0 +1,2 @@
+docker build -t static-website .
+docker run -d -p 8080: --name static-website-container static-website
